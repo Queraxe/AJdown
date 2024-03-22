@@ -17,7 +17,7 @@ function myFunction() {
 
 	var now = new Date();
 
-	if (now > timetodate) {
+	if (timetodate - timenow <= 0) {
 		timetodate.setDate(now.getDate() + 1);
 	}
 
